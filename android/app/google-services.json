@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584737786238",
+    "project_id": "fir-b22de",
+    "storage_bucket": "fir-b22de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584737786238:android:181b16c648999c39fd0b2f",
+        "android_client_info": {
+          "package_name": "com.example.fire_base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzOOGiGOpiczACNYNdP9vY9P7c7vjgv-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
