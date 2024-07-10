@@ -1,7 +1,10 @@
 import 'dart:async';
 
-import 'package:fire_base/Screens/Home.dart';
+
 import 'package:fire_base/Screens/Login.dart';
+import 'package:fire_base/Screens/Strorage/Strorage.dart';
+import 'package:fire_base/Screens/firestore/Home.dart';
+import 'package:fire_base/Screens/real%20time/Home2.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -20,7 +23,7 @@ class _SplashState extends State<Splash> {
     if (user!=null) {
        Timer(Duration(seconds: 3),()=>Navigator.push(context,MaterialPageRoute(builder: (_)=>Loginpage())));
     }else{
-       Timer(Duration(seconds: 3),()=>Navigator.push(context,MaterialPageRoute(builder: (_)=>Homepage())));
+       Timer(Duration(seconds: 3),()=>Navigator.push(context,MaterialPageRoute(builder: (_)=>Strorage())));
     }
    
    }

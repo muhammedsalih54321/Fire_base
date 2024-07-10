@@ -1,5 +1,6 @@
 import 'package:fire_base/Components/Toast%20message.dart';
-import 'package:fire_base/Screens/Home.dart';
+
+import 'package:fire_base/Screens/firestore/Home.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
