@@ -29,8 +29,10 @@ class _HomepageState extends State<Homepage> {
                     .signOut()
                     .then(
                       (value) => {
-                        Navigator.push(context,
-                            MaterialPageRoute(builder: (_) => Loginpage()))
+                        Navigator.of(context).pushAndRemoveUntil(
+                                          MaterialPageRoute(
+                                              builder: (context) => Loginpage()),
+                                          (Route<dynamic> route) => false)
                       },
                     )
                     .onError(
